@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="5wHvyNIjZOyh4pv0h0P1">
+    <mxGraphModel dx="680" dy="1811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fNVbc_J-O4164ZBhq56O-49" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-51" target="fNVbc_J-O4164ZBhq56O-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-51" target="fNVbc_J-O4164ZBhq56O-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-51" value="Perimeter Firewall&lt;div&gt;NG (Next-Generation) or Edge FW (Firewall)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-53" target="fNVbc_J-O4164ZBhq56O-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-53" value="DMZ (Demilizaterized) Zone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-54" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-59" target="fNVbc_J-O4164ZBhq56O-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-55" value="DC 1 Spine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fNVbc_J-O4164ZBhq56O-54">
+          <mxGeometry x="0.1939" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-56" value="DC 2 Spine" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-59" target="fNVbc_J-O4164ZBhq56O-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-57" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-59" target="fNVbc_J-O4164ZBhq56O-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-58" value="DC 3 Spine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fNVbc_J-O4164ZBhq56O-57">
+          <mxGeometry x="-0.0262" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-59" value="Distribution Layer (Spine)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-61" value="Leaf Switch&lt;div&gt;(Mgmt VLAN)&lt;/div&gt;&lt;div&gt;(Control VLAN)&lt;/div&gt;&lt;div&gt;(Tenants VLAN)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-62" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-63" target="fNVbc_J-O4164ZBhq56O-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-63" value="Leaf Switch&lt;div&gt;&lt;div&gt;(Mgmt VLAN)&lt;/div&gt;&lt;div&gt;(Control VLAN)&lt;/div&gt;&lt;div&gt;(Tenants VLAN)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-65" value="Leaf Switch&lt;div&gt;&lt;div&gt;(Mgmt VLAN)&lt;/div&gt;&lt;div&gt;(Control VLAN)&lt;/div&gt;&lt;div&gt;(Tenants VLAN)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-66" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-67" target="fNVbc_J-O4164ZBhq56O-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-67" value="&lt;div&gt;Mirror Span&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Syslog traffic over TLS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NIDS sensors&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="315" y="360" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-68" value="SIEM Cluster (Correlator, Storage,&amp;nbsp; Dashboard)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="530" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-69" value="HV1/ HV2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-70" value="HV3/ HV4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-71" value="HV5/ HV6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-72" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-73" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-74" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="160" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-75" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-76" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-78" target="fNVbc_J-O4164ZBhq56O-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-77" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-78" target="fNVbc_J-O4164ZBhq56O-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-78" value="Perimeter Firewall&lt;div&gt;NG (Next-Generation) or Edge FW (Firewall)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-79" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-80" target="fNVbc_J-O4164ZBhq56O-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-80" value="DMZ (Demilizaterized) Zone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-81" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-86" target="fNVbc_J-O4164ZBhq56O-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-82" value="DC 1 Spine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fNVbc_J-O4164ZBhq56O-81">
+          <mxGeometry x="0.1939" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-83" value="DC 2 Spine" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-86" target="fNVbc_J-O4164ZBhq56O-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-84" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-86" target="fNVbc_J-O4164ZBhq56O-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-85" value="DC 3 Spine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fNVbc_J-O4164ZBhq56O-84">
+          <mxGeometry x="-0.0262" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-86" value="Distribution Layer (Spine)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-87" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-99" target="fNVbc_J-O4164ZBhq56O-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-88" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-89" target="fNVbc_J-O4164ZBhq56O-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-89" value="Leaf Switch&lt;div&gt;(Mgmt VLAN)&lt;/div&gt;&lt;div&gt;(Control VLAN)&lt;/div&gt;&lt;div&gt;(Tenants VLAN)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-90" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-91" target="fNVbc_J-O4164ZBhq56O-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-91" value="Leaf Switch&lt;div&gt;&lt;div&gt;(Mgmt VLAN)&lt;/div&gt;&lt;div&gt;(Control VLAN)&lt;/div&gt;&lt;div&gt;(Tenants VLAN)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-92" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-101" target="fNVbc_J-O4164ZBhq56O-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-93" value="Leaf Switch&lt;div&gt;&lt;div&gt;(Mgmt VLAN)&lt;/div&gt;&lt;div&gt;(Control VLAN)&lt;/div&gt;&lt;div&gt;(Tenants VLAN)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-95" target="fNVbc_J-O4164ZBhq56O-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-95" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="315" y="490" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-96" value="SIEM Cluster (Correlator, Storage,&amp;nbsp; Dashboard)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="530" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-97" value="&lt;div&gt;&lt;span style=&quot;color: rgb(192, 192, 192);&quot;&gt;Hypervisors&lt;/span&gt;&lt;/div&gt;HV3&lt;div&gt;HV4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-98" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-99" value="&lt;div&gt;&lt;font&gt;Mirror Span&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;span&gt;&lt;font&gt;Syslog traffic over TLS&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;NIDS sensors&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-100" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-93" target="fNVbc_J-O4164ZBhq56O-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="sourcePoint" />
+            <mxPoint x="435" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-101" value="&lt;div&gt;&lt;font&gt;Mirror Span&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;span&gt;&lt;font&gt;Syslog traffic over TLS&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;NIDS sensors&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="360" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-102" value="&lt;div&gt;&lt;span style=&quot;color: rgb(192, 192, 192);&quot;&gt;Hypervisors&lt;/span&gt;&lt;/div&gt;HV5&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;HV6&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-103" value="&lt;div&gt;&lt;font&gt;Mirror Span&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;span&gt;&lt;font&gt;Syslog traffic over TLS&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;NIDS sensors&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-104" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fNVbc_J-O4164ZBhq56O-103" target="fNVbc_J-O4164ZBhq56O-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNVbc_J-O4164ZBhq56O-105" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(192, 192, 192);&quot;&gt;Hypervisors&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;HV1&lt;div&gt;&lt;div&gt;HV2&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
